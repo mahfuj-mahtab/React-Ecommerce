@@ -20,7 +20,7 @@ export default function header() {
         <i class="fa-solid fa-cart-shopping cart"></i>
         <h2 className='h2'>10</h2>
         </div>
-        <Link className='link_button' to="/login">Login</Link>
+        <Link className='link_button' to="/login"><i class="fa-solid fa-right-to-bracket login_icon"></i> Login</Link>
         </div>
         </div>
     </div>
