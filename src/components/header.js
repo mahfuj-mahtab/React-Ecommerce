@@ -12,7 +12,11 @@ export default function header() {
         </div>
         <div className="right_header">
         {/* <FontAwesomeIcon icon="fa-solid fa-cart-shopping" /> */}
-        <i class="fa-solid fa-house"></i>
+        <div className="cart_section">
+        <i class="fa-solid fa-cart-shopping cart"></i>
+        {/* <div className="cart_num">2</div> */}
+        <h2 className='h2'>hello</h2>
+        </div>
         </div>
         </div>
     </header>
