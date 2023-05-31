@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function header() {
   return (
+    <>
     <div className='header'>
         <div className="main_header">
         <div className="left_header">
@@ -23,5 +24,19 @@ export default function header() {
         </div>
         </div>
     </div>
+    <div className="bottom_header">
+      <div className="bottom_header_main">
+        <ul>
+          <li><Link to="">Programming</Link></li>
+          <li><Link to="">Coding</Link></li>
+          <li><Link to="">Monitor</Link></li>
+          <li><Link to="">Programming</Link></li>
+          <li><Link to="">Programming</Link></li>
+          <li><Link to="">Programming</Link></li>
+        
+        </ul>
+      </div>
+    </div>
+    </>
   )
 }
