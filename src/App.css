@@ -3,13 +3,18 @@
   height: 100px;
   line-height: 100px;  
   background: #171616;
-  overflow: hidden;
+  /* overflow: hidden; */
+  position: relative;
+
 }
+
 .main_header{
   width: 1366px;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 100px;
+  line-height: 100px;
+  display: flex;
 }
 .left_header{
   width: 20%;
@@ -22,14 +27,17 @@
   width: 60%;
   height: 100px;
   float: left;
-  background: #630404;
+  /* background: #630404; */
 }
 .right_header{
   width: 20%;
   height: 100px;
   line-height: 100px;
-  float: left;
-  background: #ccc5c5;
+  float: right;
+  /* background: #e10606; */
+  /* padding-left: 150px; */
+  /* flex-direction: row; */
+
 }
 .logo{
   color: rgb(255, 255, 255);
@@ -55,10 +63,29 @@
   background: #35BDD0;
   border: 1px solid #35BDD0;
   color: white;
-
   margin-left: 5px;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
+
+}
+.link_button{
+  width: 120px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 5px;
+  background: #35BDD0;
+  border: 1px solid #35BDD0;
+  color: white;
+  margin-left: 135px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  top: 25px;
+  /* left: 70px; */
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
 
 }
 ::placeholder{
@@ -81,15 +108,16 @@
 }
 .fa-solid{
 
-  width: 90px;
+  /* width: 90px; */
   height: 100px;
 }
 .cart_section{
-  width: 400px;
+  /* width: 100px; */
   height: 100px;
   line-height: 100px;
-  border: 1px solid red;
+  /* border: 1px solid rgb(0, 0, 0); */
   float: left;
+  margin-left: 50px;
 }
 .cart_num{
   width: 10px;
@@ -97,7 +125,15 @@
 
 }
 .h2{
-  width: 50px;
-  height: 100px;
-  /* float: left; */
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  float: right;
+  background: #35BDD0;
+  font-size: 12px;
+  padding:5px;
+  position: relative;
+  border-radius: 50%;  
+  left: -5px;
+  color: white;
 }

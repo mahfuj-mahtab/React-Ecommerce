@@ -1,8 +1,10 @@
 import React from 'react'
 // import  {} from FontAwesomeIcon
+import { Link } from "react-router-dom";
+
 export default function header() {
   return (
-    <header className='header'>
+    <div className='header'>
         <div className="main_header">
         <div className="left_header">
             <h2 className="logo">Ecom</h2>
@@ -13,12 +15,13 @@ export default function header() {
         <div className="right_header">
         {/* <FontAwesomeIcon icon="fa-solid fa-cart-shopping" /> */}
         <div className="cart_section">
-        <i class="fa-solid fa-cart-shopping cart"></i>
         {/* <div className="cart_num">2</div> */}
-        <h2 className='h2'>hello</h2>
+        <i class="fa-solid fa-cart-shopping cart"></i>
+        <h2 className='h2'>10</h2>
+        </div>
+        <Link className='link_button' to="/login">Login</Link>
         </div>
         </div>
-        </div>
-    </header>
+    </div>
   )
 }
