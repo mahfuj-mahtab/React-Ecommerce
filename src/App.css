@@ -2,7 +2,7 @@
   width: 1920px;
   height: 100px;
   line-height: 100px;  
-  background: #171616;
+  background: #03203C;
   /* overflow: hidden; */
   position: relative;
 
@@ -66,6 +66,8 @@
   margin-left: 5px;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
 
 }
 .link_button{
@@ -179,15 +181,19 @@
 }
 .banner{
   width: 1366px;
-  height: 500px;
+  height: 600px;
   margin: 0 auto;
+  overflow: hidden;
 
 }
 .left_banner{
   width: 250px;
   min-height: 460px;
-  background: #35BDD0;
+  background: #03203C;
   float: left;
+  height: auto;
+  padding-bottom: 2px;
+  /* margin-top: 10px; */
 }
 .login_icon{
   color: white;
@@ -208,6 +214,9 @@
   float: left;
 
 }
+.cat_icon{
+  margin-right: 10px;
+}
 .left_banner ul{
   list-style: none;
   padding: 0px;
@@ -227,7 +236,7 @@
   /* border: 1px solid red; */
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
   display: block;
   width: 200px;
@@ -244,4 +253,22 @@
 
   float: left;
   background: #ffffff;
+}
+.right_banner_img{
+  width: 1070px;
+  height: 450px;
+
+}
+.cat{
+  padding: 0px;
+  width: 230px;
+  height: 50px;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 50px;
+  background: #35BDD0;
+  color: white;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
 }

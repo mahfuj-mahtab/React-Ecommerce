@@ -11,7 +11,8 @@ export default function header() {
             <h2 className="logo">Ecom</h2>
         </div>
         <div className="middle_header">
-            <input type="text" name="search" className="search" placeholder='Search' /><button className='button'>Search</button>
+            <input type="text" name="search" className="search" placeholder='Search' />
+            <button className='button'>Search</button>
         </div>
         <div className="right_header">
         {/* <FontAwesomeIcon icon="fa-solid fa-cart-shopping" /> */}
