@@ -1,10 +1,23 @@
-import React from 'react'
 // import  {} from FontAwesomeIcon
 import { Link } from "react-router-dom";
-
+import {API} from '../backend'
+import {cat_api_call} from '../Api/category_api';
+import React,{useEffect,useState} from 'react'
 export default function header() {
+  // const [category,setCategory] = useState([])
+  // const load_cat =()=>{
+  //   cat_api_call().then((data)=>{
+  //     setCategory(data)
+  //   }).catch((err)=>{
+  //     console.log(err)
+  //   })
+  // }
+  // useEffect(() => {
+  //   load_cat();
+  // }, [])
   return (
     <>
+ 
     <div className='header'>
         <div className="main_header">
         <div className="left_header">
