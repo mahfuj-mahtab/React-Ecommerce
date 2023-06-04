@@ -181,7 +181,7 @@
 }
 .banner{
   width: 1366px;
-  height: 600px;
+  height: 500px;
   margin: 0 auto;
   overflow: hidden;
 
@@ -271,4 +271,100 @@
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
+}
+.product_section{
+  width: 1366px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 80px;
+
+}
+.product_h1{
+  font-family: 'Poppins', sans-serif; 
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  font-size: 25px;
+  /* border: 1px solid red; */
+  color: rgb(38, 37, 37);
+}
+.product{
+  width: 300px;
+  height: 500px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  background: #fff;
+  border-radius: 5px;
+}
+.product_img{
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+
+}
+.product_name{
+  font-family: 'Roboto', sans-serif;
+  /* text-align: left; */
+  width: 90%;
+  height: 80px;
+    margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  font-weight: normal;
+  font-size: 17px;
+}
+.price{
+  width: 90%;
+  height: 30px;
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #c77501;
+}
+.add_to_cart{
+  width: 120px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 5px;
+  background: #35BDD0;
+  border: 1px solid #35BDD0;
+  color: white;
+  /* margin-left: 135px;   */
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  /* top: 25px; */
+  float: left;
+  margin: 13px;
+  /* left: 70px; */
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.see_details{
+  width: 120px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 5px;
+  background: #E8BD0D;
+  border: 1px solid #E8BD0D;
+  color: white;
+  /* margin-left: 135px;   */
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  /* top: 25px; */
+  float: left;
+  margin: 13px;
+  /* left: 70px; */
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
 }

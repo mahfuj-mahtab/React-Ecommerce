@@ -2,8 +2,9 @@
 import { Link } from "react-router-dom";
 import {API} from '../backend'
 import {cat_api_call} from '../Api/category_api';
-import React,{useEffect,useState} from 'react'
-export default function header() {
+import React from 'react'
+import {useEffect,useState}  from 'react'
+const header = ()=>{
   // const [category,setCategory] = useState([])
   // const load_cat =()=>{
   //   cat_api_call().then((data)=>{
@@ -54,3 +55,4 @@ export default function header() {
     </>
   )
 }
+export default  header
