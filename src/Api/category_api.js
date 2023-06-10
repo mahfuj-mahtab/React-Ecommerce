@@ -7,7 +7,7 @@ export const cat_api_call = ()=>{
         }
     ).catch(
         (err)=>{
-            console.log("Fetch erro : ",err)
+            console.log("Fetch error is this : ",err)
         }
     )
 }

@@ -4,18 +4,8 @@ import {API} from '../backend'
 import {cat_api_call} from '../Api/category_api';
 import React from 'react'
 import {useEffect,useState}  from 'react'
-const header = ()=>{
-  // const [category,setCategory] = useState([])
-  // const load_cat =()=>{
-  //   cat_api_call().then((data)=>{
-  //     setCategory(data)
-  //   }).catch((err)=>{
-  //     console.log(err)
-  //   })
-  // }
-  // useEffect(() => {
-  //   load_cat();
-  // }, [])
+const Header = ()=>{
+
   return (
     <>
  
@@ -42,7 +32,10 @@ const header = ()=>{
     <div className="bottom_header">
       <div className="bottom_header_main">
         <ul>
-          <li><Link to="">Programming</Link></li>
+          {/* {category.map((cat,index)=>{
+            return <li key={index}><Link to="">{cat.name}</Link></li>
+          })} */}
+          
           <li><Link to="">Coding</Link></li>
           <li><Link to="">Monitor</Link></li>
           <li><Link to="">Programming</Link></li>
@@ -55,4 +48,4 @@ const header = ()=>{
     </>
   )
 }
-export default  header
+export default  Header
