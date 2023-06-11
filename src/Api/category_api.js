@@ -3,6 +3,7 @@ import {API} from '../backend'
 export const cat_api_call = ()=>{
     return fetch(`${API}/category/`,{method:'GET'}).then(
         (response)=>{
+            // console.log(response.body)
             return response.json();
         }
     ).catch(

@@ -5,18 +5,18 @@ export default function Banner() {
     <div>
         <div className='banner'>
             <div className="left_banner">
-            <div className='cat'><i class="fa-solid fa-bars cat_icon"></i>Categorys</div>
+            <div className='cat'><i className="fa-solid fa-bars cat_icon"></i>Categorys</div>
 
                 <ul>
-                    <li><i class="fa-solid fa-caret-right banner_icon"></i><Link>Electronics Accssories</Link></li>
-                    <li><i class="fa-solid fa-caret-right banner_icon"></i><Link>Computer</Link></li>
-                    <li><i class="fa-solid fa-caret-right banner_icon"></i><Link>Server & Storage</Link></li>
-                    <li><i class="fa-solid fa-caret-right banner_icon"></i><Link>Gadget</Link></li>
-                    <li><i class="fa-solid fa-caret-right banner_icon"></i><Link>Mobile Device</Link></li>
-                    <li><i class="fa-solid fa-caret-right banner_icon"></i><Link>Computer</Link></li>
-                    <li><i class="fa-solid fa-caret-right banner_icon"></i><Link>Server & Storage</Link></li>
-                    <li><i class="fa-solid fa-caret-right banner_icon"></i><Link>Gadget</Link></li>
-                    <li><i class="fa-solid fa-caret-right banner_icon"></i><Link>Mobile Device</Link></li>
+                    <li><i className="fa-solid fa-caret-right banner_icon"></i><Link>Electronics Accssories</Link></li>
+                    <li><i className="fa-solid fa-caret-right banner_icon"></i><Link>Computer</Link></li>
+                    <li><i className="fa-solid fa-caret-right banner_icon"></i><Link>Server & Storage</Link></li>
+                    <li><i className="fa-solid fa-caret-right banner_icon"></i><Link>Gadget</Link></li>
+                    <li><i className="fa-solid fa-caret-right banner_icon"></i><Link>Mobile Device</Link></li>
+                    <li><i className="fa-solid fa-caret-right banner_icon"></i><Link>Computer</Link></li>
+                    <li><i className="fa-solid fa-caret-right banner_icon"></i><Link>Server & Storage</Link></li>
+                    <li><i className="fa-solid fa-caret-right banner_icon"></i><Link>Gadget</Link></li>
+                    <li><i className="fa-solid fa-caret-right banner_icon"></i><Link>Mobile Device</Link></li>
              
                 </ul>
             </div>

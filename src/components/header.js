@@ -5,7 +5,17 @@ import {cat_api_call} from '../Api/category_api';
 import React from 'react'
 import {useEffect,useState}  from 'react'
 const Header = ()=>{
-
+  const [category,setCategory] = useState([])
+  const load_cat =()=>{
+    cat_api_call().then((data)=>{
+      setCategory(data)
+    }).catch((err)=>{
+      console.log(err)
+    })
+  }
+  useEffect(() => {
+    load_cat();
+  }, [])
   return (
     <>
  
@@ -22,25 +32,25 @@ const Header = ()=>{
         {/* <FontAwesomeIcon icon="fa-solid fa-cart-shopping" /> */}
         <div className="cart_section">
         {/* <div className="cart_num">2</div> */}
-        <i class="fa-solid fa-cart-shopping cart"></i>
+        <i className="fa-solid fa-cart-shopping cart"></i>
         <h2 className='h2'>10</h2>
         </div>
-        <Link className='link_button' to="/login"><i class="fa-solid fa-right-to-bracket login_icon"></i> Login</Link>
+        <Link className='link_button' to="/login"><i className="fa-solid fa-right-to-bracket login_icon"></i> Login</Link>
         </div>
         </div>
     </div>
     <div className="bottom_header">
       <div className="bottom_header_main">
         <ul>
-          {/* {category.map((cat,index)=>{
+          {category.map((cat,index)=>{
             return <li key={index}><Link to="">{cat.name}</Link></li>
-          })} */}
+          })}
           
-          <li><Link to="">Coding</Link></li>
+          {/* <li><Link to="">Coding</Link></li>
           <li><Link to="">Monitor</Link></li>
           <li><Link to="">Programming</Link></li>
           <li><Link to="">Programming</Link></li>
-          <li><Link to="">Programming</Link></li>
+          <li><Link to="">Programming</Link></li> */}
         
         </ul>
       </div>
