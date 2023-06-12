@@ -29,7 +29,7 @@ useEffect(() => {
 
         {products.map((product,index)=>{
 
-        return <Product key={index} name={product.name} url="p1.jpg" price={product.price}/>
+        return <Product key={index} name={product.name} url={product.image} price={product.price}/>
         })}
 
         {/* <Product name="Lenovo IdeaCentre 3 AMD Athlon Silver 3050U 4GB RAM 1TB HDD Brand PC" url="p1.jpg" price="235"/> */}
