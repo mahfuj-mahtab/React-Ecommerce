@@ -8,11 +8,15 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
-
+import See_Details from './components/Homes/See_Details';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/product/:id",
+    element: <See_Details/>,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
