@@ -368,3 +368,135 @@
   text-align: center;
   text-decoration: none;
 }
+.product_details{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  margin-top: 10px;
+  background: white;
+  padding-top: 20px;
+
+}
+.main_product_details{
+  width: 1366px;
+  height: 600px;
+  margin: 0 auto;
+  border-bottom: 0.5px dashed #00464f;
+  overflow: hidden;
+
+  
+}
+.left_main_product_details{
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.right_main_product_details {
+  width: 49.5%;
+  height: 600px;
+  float: left;
+}
+.product_details_img{
+  width: 500px;
+  height: 400px;
+  margin-left: 100px;
+  border-radius: 10px;
+
+}
+.product_details_sub_img{
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.left_main_product_details_top{
+  height: 420px;
+}
+.left_main_product_details_bottom{
+  width: 360px;
+  height: 100px;
+  margin: 0 auto;
+ padding-left: 20px;
+}
+.product_details_product_h1{
+  font-family: 'Poppins', sans-serif;
+  color: #2e2e2e;
+  padding: 0;
+  margin: 0;
+  height: 70px;
+}
+.product_short_description{
+  margin: 0;
+  padding:0;
+  text-align: justify;
+  margin-right:20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(33, 33, 33);
+  font-weight: 200;
+
+}
+.product_details_price{
+  font-family: 'Poppins', sans-serif;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #F5F6FC;
+}
+.buy_now  {
+  width: 120px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 5px;
+  background: #35BDD0;
+  border: 1px solid #35BDD0;
+  color: white;
+  /* margin-left: 135px;   */
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  /* top: 25px; */
+  float: left;
+  /* left: 70px; */
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.details_product_section_details{
+  width: 1366px;
+  height: auto;
+  text-align: justify;
+  margin: 0 auto;
+  padding-top: 20px;
+  background: white;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+
+}
+.details_section_bottom{
+  width: 100%;
+  height: 600px;
+  margin-top: 10px;
+}
+.main_section_bottom{
+  width: 1366px;
+  margin : 0 auto;
+}
+.details_btn_txt{
+  width: 120px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 5px;
+  background: #E5330B;
+  border: 1px solid #E5330B;
+  color: white;
+  /* margin-left: 135px;   */
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}

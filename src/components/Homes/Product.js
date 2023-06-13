@@ -8,7 +8,7 @@ export default function Product({name,url,price}) {
         <h3 className='product_name'>{name}</h3>
         <b className='price'>{price} Taka</b>
         <Link className='add_to_cart'> Add To Cart</Link>
-        <Link className='see_details'> See Details</Link>
+        <Link to="/product/2" className='see_details'> See Details</Link>
 
     </div>
     
